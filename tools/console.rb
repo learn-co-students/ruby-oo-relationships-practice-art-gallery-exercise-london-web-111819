@@ -19,6 +19,7 @@ paint2 = Painting.new(2000, 'Rubens', art2, gal2)
 paint2_2 = Painting.new(4000, 'Rubensesque', art2, gal3)
 paint3 = Painting.new(3000, 'Da Vinci', art3, gal3)
 paint3_2 = Painting.new(5000, 'Da Vinci Code', art3, gal1)
+paint3_3 = Painting.new(5000, 'Da Vinci Code', art2, gal1)
 
 binding.pry
 

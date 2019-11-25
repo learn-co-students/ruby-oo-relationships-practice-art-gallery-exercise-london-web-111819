@@ -19,7 +19,7 @@ class Artist
   end
 
   def self.most_prolific
-    # Still need to finish
+    Artist.all.min_by{|artist| artist.total_experience / artist.paintings.length }
   end
 
   def paintings
